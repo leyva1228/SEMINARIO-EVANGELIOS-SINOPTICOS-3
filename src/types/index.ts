@@ -1,4 +1,4 @@
-export type TipoElemento = 'portada' | 'introduccion_capitulo' | 'contenido';
+export type TipoElemento = 'portada' | 'introduccion_capitulo' | 'contenido' | 'agradecimiento';
 
 export type TipoContenidoItem =
   | 'parrafos'

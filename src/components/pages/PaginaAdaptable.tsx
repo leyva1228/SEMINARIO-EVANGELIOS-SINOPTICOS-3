@@ -239,7 +239,74 @@ export default function PaginaAdaptable({ pagina }: { pagina: PaginaData }) {
     case 'portada':
       return null
 
+    case 'agradecimiento':
+      return <PaginaAgradecimiento />
+
     default:
       return null
   }
+}
+
+function PaginaAgradecimiento() {
+  const waUrl = 'https://wa.me/51976286325'
+  const mailUrl = 'mailto:desiderioleyva13@gmail.com'
+
+  return (
+    <div className="flex flex-col items-center justify-center h-full w-full text-center px-[6vmin]">
+      <div className="bg-white/5 backdrop-blur-sm rounded-[2vmin] border border-[#00B0F0]/20 p-[5vmin] max-w-[100vmin] shadow-[0_0_3vmin_rgba(0,176,240,0.1)]">
+        <h2 className="text-[#F5C518] text-[5vmin] font-bold mb-[3vmin] drop-shadow-[0.3vmin_0.3vmin_0.3vmin_rgba(0,0,0,0.8)]">
+          ¡Gracias por completar este estudio!
+        </h2>
+        <p className="text-[#FFFFFF] text-[3vmin] leading-[1.6] mb-[3vmin] drop-shadow-[0.2vmin_0.2vmin_0.2vmin_rgba(0,0,0,0.6)]">
+          Dios les bendiga. Que el Señor Jesucristo les siga guiando en el estudio de Su Palabra.
+        </p>
+        <p className="text-[#00B0F0] text-[3vmin] font-bold leading-[1.5] mb-[4vmin] drop-shadow-[0.2vmin_0.2vmin_0.2vmin_rgba(0,0,0,0.6)]">
+          Su hermano en Cristo,<br />
+          Pastor Desiderio Leyva Mejía
+        </p>
+
+        <div className="flex flex-col items-center gap-[1.5vmin]">
+          <a
+            href={waUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full max-w-[50vmin] flex items-center justify-center gap-[1.5vmin] py-[1.5vmin] px-[3vmin] rounded-[1vmin] text-[2.8vmin] font-bold transition-all duration-200 border cursor-pointer"
+            style={{ backgroundColor: '#25D36620', borderColor: '#25D366', color: '#25D366' }}
+            onMouseEnter={e => { e.currentTarget.style.backgroundColor = '#25D36640' }}
+            onMouseLeave={e => { e.currentTarget.style.backgroundColor = '#25D36620' }}
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-[3.5vmin] h-[3.5vmin]">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+              <path d="M12 2C6.48 2 2 6.48 2 12c0 2.14.71 4.14 1.91 5.77L2 22l4.47-1.97C8.08 20.69 10 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.85 0-3.57-.64-4.94-1.72-.19-.15-.43-.22-.67-.19l-3.02 1.33 1.01-3.05c.05-.15.03-.32-.06-.45C3.57 14.56 3 13.32 3 12 3 7.03 7.03 3 12 3s9 4.03 9 9-4.03 9-9 9z" />
+            </svg>
+            WhatsApp
+          </a>
+
+          <a
+            href={mailUrl}
+            className="w-full max-w-[50vmin] flex items-center justify-center gap-[1.5vmin] py-[1.5vmin] px-[3vmin] rounded-[1vmin] text-[2.8vmin] font-bold transition-all duration-200 border cursor-pointer"
+            style={{ backgroundColor: '#EA433520', borderColor: '#EA4335', color: '#EA4335' }}
+            onMouseEnter={e => { e.currentTarget.style.backgroundColor = '#EA433540' }}
+            onMouseLeave={e => { e.currentTarget.style.backgroundColor = '#EA433520' }}
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-[3.5vmin] h-[3.5vmin]">
+              <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+            </svg>
+            Correo electrónico
+          </a>
+
+          <button
+            disabled
+            className="w-full max-w-[50vmin] flex items-center justify-center gap-[1.5vmin] py-[1.5vmin] px-[3vmin] rounded-[1vmin] text-[2.8vmin] font-bold border cursor-not-allowed opacity-60"
+            style={{ backgroundColor: '#FFFFFF10', borderColor: '#FFFFFF40', color: '#FFFFFF80' }}
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-[3.5vmin] h-[3.5vmin]">
+              <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
+            </svg>
+            Descargar (próximamente)
+          </button>
+        </div>
+      </div>
+    </div>
+  )
 }
