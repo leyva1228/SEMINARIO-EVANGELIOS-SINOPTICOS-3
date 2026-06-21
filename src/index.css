@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #071825;
+  color: #ffffff;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+@layer utilities {
+  .text-shadow-oscuro {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  }
+  .text-shadow-celeste {
+    text-shadow: 0 0 10px rgba(0,176,240,0.3);
+  }
+  .text-shadow-dorado {
+    text-shadow: 0 0 10px rgba(255,192,0,0.3);
+  }
+}

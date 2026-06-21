@@ -1,0 +1,16 @@
+export const labels = {
+  label_leccion: 'Lección',
+  label_capitulo: 'Capítulo',
+  label_objetivo: 'Objetivo',
+  label_referencia: 'Referencia:',
+  label_contexto_historico: 'CONTEXTO HISTÓRICO',
+  label_imagen_leccion: 'Imagen de lección',
+  label_logo: 'LADP Logo',
+  label_tabla_vacia: '— Datos pendientes —',
+  label_tabla_vacia_desc: 'El contenido real de la tabla será proporcionado por el usuario',
+  label_bullet: '►',
+  label_parte_2: 'PARTE 2',
+  label_anterior: 'Anterior',
+  label_siguiente: 'Siguiente',
+  label_continuacion: '(continuación)',
+}
