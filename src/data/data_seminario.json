@@ -5546,6 +5546,10 @@
         ]
       },
       {
+        "tipo": "enumeracion_por_alfabetizacion",
+        "contenido": "B. La Gran Comisión. Mt 28:18-20; Mr 16:15-18; Lc 24:45-49"
+      },
+      {
         "tipo": "contexto",
         "contexto_historico": "CONTEXTO HISTORICO",
         "contexto_historico_descripcion": [
