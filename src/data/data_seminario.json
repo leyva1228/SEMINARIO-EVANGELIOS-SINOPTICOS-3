@@ -730,7 +730,8 @@
       }
     ],
     "fontSize": 3,
-    "lateralPadding": 2
+    "lateralPadding": 2,
+    "scroll": true
   },
   {
     "id": "14",
@@ -1063,7 +1064,7 @@
     "fontSize": 2.8,
     "lateralPadding": 2,
     "scroll": true,
-    "imagen": "/src/assets/desfile-jesus.png",
+    "imagen": "/assets/desfile-jesus.png",
     "imagenScale": 6
   },
   {
@@ -2810,9 +2811,10 @@
       }
     ],
     "fontSize": 3,
-    "lateralPadding": 2,
+    "lateralPadding": 4,
     "scroll": true,
-    "noScroll": true
+    "noScroll": true,
+    "itemSpacing": "0.6vmin"
   },
   {
     "id": "46",
@@ -2822,7 +2824,7 @@
     "lateralPadding": 2,
     "scroll": true,
     "noScroll": true,
-    "imagen": "/src/assets/img_temp.png",
+    "imagen": "/assets/img_temp.png",
     "imagenScale": 8
   },
   {
@@ -2937,8 +2939,7 @@
     ],
     "fontSize": 3,
     "lateralPadding": 2,
-    "scroll": true,
-    "noScroll": true
+    "scroll": true
   },
   {
     "id": "49",
@@ -3024,7 +3025,7 @@
       }
     ],
     "fontSize": 3,
-    "scroll": false,
+    "scroll": true,
     "noScroll": true
   },
   {
@@ -3228,7 +3229,7 @@
       },
       {
         "tipo": "imagen",
-        "imagen": "/src/assets/img_lec40.png",
+        "imagen": "/assets/img_lec40.png",
         "imagenScale": 4
       }
     ],
@@ -3725,7 +3726,7 @@
     "contenido": [
       {
         "tipo": "imagen",
-        "imagen": "/src/assets/img_5_pasajes.png",
+        "imagen": "/assets/img_5_pasajes.png",
         "imagenScale": 4
       },
       {
@@ -3961,7 +3962,7 @@
       },
       {
         "tipo": "imagen",
-        "imagen": "/src/assets/img_ultiam_cena.png",
+        "imagen": "/assets/img_ultiam_cena.png",
         "imagenScale": 4
       },
       {
@@ -4770,7 +4771,7 @@
       },
       {
         "tipo": "imagen",
-        "imagen": "/src/assets/figura_13_13.png",
+        "imagen": "/assets/figura_13_13.png",
         "imagenScale": 4
       }
     ],
@@ -4903,18 +4904,6 @@
     "id": "77",
     "tipo": "contenido",
     "fontSize": 3,
-    "contenido": []
-  },
-  {
-    "id": "78",
-    "tipo": "contenido",
-    "fontSize": 3,
-    "contenido": []
-  },
-  {
-    "id": "79",
-    "tipo": "contenido",
-    "fontSize": 3,
     "contenido": [
       {
         "tipo": "leccion_inicio",
@@ -4930,22 +4919,28 @@
       {
         "tipo": "contexto",
         "contexto_historico": "CONTEXTO HISTÓRICO",
-        "contexto_historico_descripcion": [
-          "Jesus cargo su cruz desde el lugar del juicio de Pilato Jn 19:17. Pero estaba demasiado debil para continuar cargando esa cruz. Por tanto, los soldados forzaron a Simon a cargar la cruz. Este hombre venia de Cirene, una ciudad en el norte de Africa, a si como el debemos tomar nuestra cruz para seguir a Jesus Lc 9:23; Ga 5:24. La costumbre de los romanos era escribir el motivo de la crucifixion en la parte superior de la cruz y lo hicieron porque El habia declaro ser el rey de los judios Mt 27:37; Jn 19:19-22. Es importante considerar las ultimas palabras de Jesus. Consideremos estas seis lecciones que podemos aprender del Calvario."
+        "contexto_historico_descripcion": []
+      },
+      {
+        "tipo": "texto",
+        "textos": [
+          {
+            "texto": "Jesus cargo su cruz desde el lugar del juicio de Pilato Jn 19:17. Pero estaba demasiado debil para continuar cargando esa cruz. Por tanto, los soldados forzaron a Simon a cargar la cruz. Este hombre venia de Cirene, una ciudad en el norte de Africa, a si como el debemos tomar nuestra cruz para seguir a Jesus Lc 9:23; Ga 5:24. La costumbre de los romanos era escribir el motivo de la crucifixion en la parte superior de la cruz y lo hicieron porque El habia declaro ser el rey de los judios Mt 27:37; Jn 19:19-22. Es importante considerar las ultimas palabras de Jesus. Consideremos estas seis lecciones que podemos aprender del Calvario."
+          }
         ]
       }
     ],
     "noScroll": true
   },
   {
-    "id": "80",
+    "id": "78",
     "tipo": "contenido",
     "fontSize": 3,
     "contenido": [
       {
         "tipo": "imagen",
-        "imagen": "/src/assets/img_jesus_cargando.png",
-        "imagenScale": 5
+        "imagen": "/assets/img_jesus_cargando.png",
+        "imagenScale": 8
       },
       {
         "tipo": "alfabetizacion",
@@ -4969,7 +4964,7 @@
     "noScroll": true
   },
   {
-    "id": "81",
+    "id": "79",
     "tipo": "contenido",
     "fontSize": 3,
     "contenido": [
@@ -4995,39 +4990,27 @@
         "tipo": "alfabetizacion",
         "numeracionItems": [
           {
-            "texto": "C. Desde la cruz, Jesus nos ensena perdonar aun a nuestros peores enemigos Lc 23:34.",
+            "texto": "C. Desde la cruz, Jesus nos ensena perdonar aun a nuestros peores enemigos Lc 23:34. 1) Jesus perdono a sus peores enemigos. El perdono a los que lo mataron. Por tanto, El perdonara nuestros pecados, y nosotros debemos perdonar a otros porque El nos ensena a perdonar. 2) Nos ayuda a tener la misma actitud de Jesus. Debemos creer que la gente no comprende bien lo que esta haciendo cuando nos esta lastimando. Jesus dijo: Perdonalos porque no saben lo que hacen.",
             "segmentos": [
               {
                 "texto": "C. Desde la cruz, Jesus nos ensena perdonar aun a nuestros peores enemigos Lc 23:34.",
                 "color": "#00B0F0"
-              }
-            ],
-            "viñetas": [
-              {
-                "texto": "1) Jesus perdono a sus peores enemigos. El perdono a los que lo mataron. Por tanto, El perdonara nuestros pecados, y nosotros debemos perdonar a otros porque El nos ensena a perdonar.",
-                "segmentos": [
-                  {
-                    "texto": "1) Jesus perdono a sus peores enemigos.",
-                    "color": "#FFFFFF"
-                  },
-                  {
-                    "texto": " El perdono a los que lo mataron. Por tanto, El perdonara nuestros pecados, y nosotros debemos perdonar a otros porque El nos ensena a perdonar.",
-                    "color": "#FFFFFF"
-                  }
-                ]
               },
               {
-                "texto": "2) Nos ayuda a tener la misma actitud de Jesus. Debemos creer que la gente no comprende bien lo que esta haciendo cuando nos esta lastimando. Jesus dijo: Perdonalos porque no saben lo que hacen.",
-                "segmentos": [
-                  {
-                    "texto": "2) Nos ayuda a tener la misma actitud de Jesus.",
-                    "color": "#FFFFFF"
-                  },
-                  {
-                    "texto": " Debemos creer que la gente no comprende bien lo que esta haciendo cuando nos esta lastimando. Jesus dijo: Perdonalos porque no saben lo que hacen.",
-                    "color": "#FFFFFF"
-                  }
-                ]
+                "texto": "1) Jesus perdono a sus peores enemigos.",
+                "color": "#FFFFFF"
+              },
+              {
+                "texto": " El perdono a los que lo mataron. Por tanto, El perdonara nuestros pecados, y nosotros debemos perdonar a otros porque El nos ensena a perdonar.",
+                "color": "#FFFFFF"
+              },
+              {
+                "texto": "2) Nos ayuda a tener la misma actitud de Jesus.",
+                "color": "#FFFFFF"
+              },
+              {
+                "texto": " Debemos creer que la gente no comprende bien lo que esta haciendo cuando nos esta lastimando. Jesus dijo: Perdonalos porque no saben lo que hacen.",
+                "color": "#FFFFFF"
               }
             ]
           }
@@ -5037,7 +5020,7 @@
     "noScroll": true
   },
   {
-    "id": "82",
+    "id": "80",
     "tipo": "contenido",
     "fontSize": 3,
     "contenido": [
@@ -5045,58 +5028,31 @@
         "tipo": "alfabetizacion",
         "numeracionItems": [
           {
-            "texto": "D. Desde la cruz, Jesus nos ensena que Dios ama a los pecadores Lc 23:39-43.",
+            "texto": "D. Desde la cruz, Jesus nos ensena que Dios ama a los pecadores Lc 23:39-43. 1) Algunos pecadores mueren en su pecado Jn 8:21-23 2) Algunos pecadores se suavizan en la presencia de Cristo 3) Jesus perdona a cualquier pecador que viene a El 4) Es facil recibir perdon Jn 6:37 5) Cuando muere un creyente, va de inmediato a estar con Jesus vs. 43",
             "segmentos": [
               {
                 "texto": "D. Desde la cruz, Jesus nos ensena que Dios ama a los pecadores Lc 23:39-43.",
                 "color": "#00B0F0"
-              }
-            ],
-            "viñetas": [
+              },
               {
                 "texto": "1) Algunos pecadores mueren en su pecado Jn 8:21-23",
-                "segmentos": [
-                  {
-                    "texto": "1) Algunos pecadores mueren en su pecado Jn 8:21-23",
-                    "color": "#FFFFFF"
-                  }
-                ]
+                "color": "#FFFFFF"
               },
               {
                 "texto": "2) Algunos pecadores se suavizan en la presencia de Cristo",
-                "segmentos": [
-                  {
-                    "texto": "2) Algunos pecadores se suavizan en la presencia de Cristo",
-                    "color": "#FFFFFF"
-                  }
-                ]
+                "color": "#FFFFFF"
               },
               {
                 "texto": "3) Jesus perdona a cualquier pecador que viene a El",
-                "segmentos": [
-                  {
-                    "texto": "3) Jesus perdona a cualquier pecador que viene a El",
-                    "color": "#FFFFFF"
-                  }
-                ]
+                "color": "#FFFFFF"
               },
               {
                 "texto": "4) Es facil recibir perdon Jn 6:37",
-                "segmentos": [
-                  {
-                    "texto": "4) Es facil recibir perdon Jn 6:37",
-                    "color": "#FFFFFF"
-                  }
-                ]
+                "color": "#FFFFFF"
               },
               {
                 "texto": "5) Cuando muere un creyente, va de inmediato a estar con Jesus vs. 43",
-                "segmentos": [
-                  {
-                    "texto": "5) Cuando muere un creyente, va de inmediato a estar con Jesus vs. 43",
-                    "color": "#FFFFFF"
-                  }
-                ]
+                "color": "#FFFFFF"
               }
             ]
           }
@@ -5142,7 +5098,7 @@
     "noScroll": true
   },
   {
-    "id": "83",
+    "id": "81",
     "tipo": "contenido",
     "fontSize": 3,
     "contenido": [
@@ -5196,33 +5152,656 @@
     "noScroll": true
   },
   {
-    "id": "84",
+    "id": "82",
     "tipo": "contenido",
     "fontSize": 3,
-    "contenido": []
+    "contenido": [
+      {
+        "tipo": "leccion_inicio",
+        "leccion": {
+          "leccion_num": 46,
+          "leccion_titulo": "La resurreccion y la Gran comision",
+          "leccion_ref": "Mt 28:1-20; Mr 16:1-18; Lc 24:1-49",
+          "objetivos": [
+            "Objetivo A: Aplicar 3 verdades sobre la resurreccion.",
+            "Objetivo B: Explicar la comision, las consecuencias y la clave en las ultimas palabras de Jesus. Relacionar estas a su situacion personal."
+          ]
+        }
+      },
+      {
+        "tipo": "alfabetizacion",
+        "numeracionItems": [
+          {
+            "texto": "A. La Resurreccion Mt 28:1-17; Mr 16:1-14; Lc 24:1-46",
+            "segmentos": [
+              {
+                "texto": "A. La Resurreccion Mt 28:1-17; Mr 16:1-14; Lc 24:1-46",
+                "color": "#00B0F0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "contexto",
+        "contexto_historico": "CONTEXTO HISTORICO",
+        "contexto_historico_descripcion": []
+      },
+      {
+        "tipo": "texto",
+        "textos": [
+          {
+            "texto": "Enfocaremos nuestra atencion sobre la resurreccion de Jesus. El cuadro que sigue nos ayudara a ver el cuadro mas amplio de la resurreccion y de los dias siguientes. El cuadro es una combinacion de los cuatro Evangelios, Hechos y 1 Corintios 15."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "83",
+    "tipo": "contenido",
+    "contenido": [
+      {
+        "tipo": "tabla",
+        "tabla": {
+          "columnas": [
+            {
+              "label": "Accion",
+              "clave": "accion"
+            },
+            {
+              "label": "Hora",
+              "clave": "hora"
+            },
+            {
+              "label": "Lugar",
+              "clave": "lugar"
+            },
+            {
+              "label": "Escritura",
+              "clave": "escritura"
+            }
+          ],
+          "filas": [
+            {
+              "tipo_fila": "tema",
+              "accion": "1. Un angel quito la piedra de la tumba.",
+              "hora": "Domingo por la manana",
+              "lugar": "Jerusalen",
+              "escritura": "Mt 28:2-4"
+            },
+            {
+              "tipo_fila": "tema",
+              "accion": "2. Las mujeres descubrieron que el cuerpo de Jesus no estaba en la tumba.",
+              "hora": "Domingo por la manana",
+              "lugar": "Jerusalen",
+              "escritura": "Mt 28:1; Mr 16:1-4; Lc 24:1-3; Jn 20:1"
+            },
+            {
+              "tipo_fila": "tema",
+              "accion": "3. Maria Magdalena fue a dar la noticia a Pedro y a Juan.",
+              "hora": "Domingo por la manana",
+              "lugar": "Jerusalen",
+              "escritura": "Jn 20:1-2"
+            },
+            {
+              "tipo_fila": "tema",
+              "accion": "4. Las otras mujeres vieron a dos angeles quienes les dijeron acerca de la resurreccion.",
+              "hora": "Domingo por la manana",
+              "lugar": "Jerusalen",
+              "escritura": "Mt 28:5-7; Mr 16:5-7; Lc 24:4-8"
+            },
+            {
+              "tipo_fila": "tema",
+              "accion": "5. Pedro y Juan visitaron la tumba de Jesus.",
+              "hora": "Domingo por la manana",
+              "lugar": "Jerusalen",
+              "escritura": "Lc 24:12; Jn 20:3-10"
+            },
+            {
+              "tipo_fila": "tema",
+              "accion": "6. Jesus aparecio a Maria Magdalena cuando regreso. (Su primera aparicion).",
+              "hora": "Domingo por la manana",
+              "lugar": "Jerusalen",
+              "escritura": "Mr 16:9-11; Jn 20:11-18"
+            },
+            {
+              "tipo_fila": "tema",
+              "accion": "7. Jesus aparecio [a Maria Magdalena], a Maria (la madre de Jacobo), a Salome y a Juana. (Su segunda aparicion).",
+              "hora": "Domingo por la manana",
+              "lugar": "Jerusalen",
+              "escritura": "Mt 28:8-10; Mr 16:1; Lc 24:10"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "84",
+    "tipo": "contenido",
+    "contenido": [
+      {
+        "tipo": "tabla",
+        "tabla": {
+          "columnas": [
+            {
+              "label": "Accion",
+              "clave": "accion"
+            },
+            {
+              "label": "Hora",
+              "clave": "hora"
+            },
+            {
+              "label": "Lugar",
+              "clave": "lugar"
+            },
+            {
+              "label": "Escritura",
+              "clave": "escritura"
+            }
+          ],
+          "filas": [
+            {
+              "tipo_fila": "tema",
+              "accion": "8. Los guardas informaron que el angel habia quitado la piedra de la tumba.",
+              "hora": "Domingo por la manana",
+              "lugar": "Jerusalen",
+              "escritura": "Mt 28:11-15"
+            },
+            {
+              "tipo_fila": "tema",
+              "accion": "9. Jesus aparecio a Pedro. (Su tercera aparicion)",
+              "hora": "Domingo por la manana",
+              "lugar": "Jerusalen",
+              "escritura": "1 Co. 15:5"
+            },
+            {
+              "tipo_fila": "tema",
+              "accion": "10. Jesus aparecio a dos discipulos caminando. (Su cuarta aparicion)",
+              "hora": "Domingo por la tarde",
+              "lugar": "El camino a Emaus",
+              "escritura": "Mr 16:12-13; Lc 24:13-32"
+            },
+            {
+              "tipo_fila": "tema",
+              "accion": "11. Los dos discipulos compartieron la noticia con otros.",
+              "hora": "Domingo por la noche",
+              "lugar": "Desconocido",
+              "escritura": "Lc 24:33-35"
+            },
+            {
+              "tipo_fila": "tema",
+              "accion": "12. Jesus aparecio a 10 apostoles; Tomas estaba ausente. (Su quinta aparicion)",
+              "hora": "Domingo por la noche",
+              "lugar": "Aposento alto en Jerusalen",
+              "escritura": "Lc 24:36-43; Jn 20:19-25"
+            },
+            {
+              "tipo_fila": "tema",
+              "accion": "13. Jesus aparecio a los 11 apostoles. (Su sexta aparicion)",
+              "hora": "El domingo siguiente",
+              "lugar": "Aposento alto en Jerusalen",
+              "escritura": "Jn 20:26-28"
+            },
+            {
+              "tipo_fila": "tema",
+              "accion": "14. Jesus indico a 7 apostoles como pescar. (Su septima aparicion)",
+              "hora": "Durante los ultimos 32 dias",
+              "lugar": "Mar de Galilea",
+              "escritura": "Jn 21:1-14"
+            },
+            {
+              "tipo_fila": "tema",
+              "accion": "15. Jesus aparecio a 500 personas. (Su octava aparicion)",
+              "hora": "Durante los ultimos 32 dias",
+              "lugar": "Monte en Galilea",
+              "escritura": "Mt 28:16-20; Mr 16:15-18; 1 Co. 15:6"
+            },
+            {
+              "tipo_fila": "tema",
+              "accion": "16. Jesus aparecio a Jacobo su medio hermano. (Su novena aparicion)",
+              "hora": "Durante los ultimos 32 dias",
+              "lugar": "Desconocido",
+              "escritura": "1 Co. 15:7"
+            },
+            {
+              "tipo_fila": "tema",
+              "accion": "17. Jesus aparecio a sus discipulos. (Su decima aparicion)",
+              "hora": "Durante los ultimos 32 dias",
+              "lugar": "Jerusalen",
+              "escritura": "Lc 24:44-49; Hch. 1:3-8"
+            },
+            {
+              "tipo_fila": "tema",
+              "accion": "18. Jesus ascendio al cielo mientras sus discipulos lo miraban.",
+              "hora": "Durante los cuarenta dias despues de la resurreccion",
+              "lugar": "Monte de los Olivos cerca de Jerusalen",
+              "escritura": "Mr 16:19; Lc 24:50-52; Hch 1:9-12"
+            }
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "85",
     "tipo": "contenido",
     "fontSize": 3,
-    "contenido": []
+    "contenido": [
+      {
+        "tipo": "parrafos",
+        "contenido": [
+          "La resurrección corporal de Jesús es un hecho histórico bien documentado. Los evangelios dan testimonio consistente de que la tumba estaba vacía y que Jesús se apareció a muchas personas después de su muerte. A diferencia de otras religiones fundadas por profetas o filósofos cuyas tumbas aún contienen sus restos, el cristianismo es la única fe que tiene un Salvador resucitado. La resurrección no solo confirma la deidad de Cristo, sino que también garantiza la esperanza de nuestra propia resurrección futura (1 Co 15:20-23)."
+        ]
+      },
+      {
+        "tipo": "numeracion",
+        "sangria": false,
+        "continuacion": false,
+        "numeracionItems": [
+          {
+            "texto": "1. La Resurrección de Jesús separa al cristianismo de todas las demás religiones del mundo. Ningún otro líder religioso ha vencido a la muerte. Buda murió, Mahoma murió, Confucio murió. Solo Cristo resucitó. La resurrección es la señal más poderosa de que Jesús es quien dijo ser: el Hijo de Dios y el Salvador del mundo (Ro 1:4).",
+            "segmentos": [
+              {
+                "texto": "1. ",
+                "color": "#F5C518"
+              },
+              {
+                "texto": "La Resurrección de Jesús separa al cristianismo de todas las demás religiones del mundo.",
+                "color": "#F5C518"
+              },
+              {
+                "texto": " Ningún otro líder religioso ha vencido a la muerte. Buda murió, Mahoma murió, Confucio murió. Solo Cristo resucitó. La resurrección es la señal más poderosa de que Jesús es quien dijo ser: el Hijo de Dios y el Salvador del mundo (Ro 1:4).",
+                "color": "#FFFFFF"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "86",
     "tipo": "contenido",
     "fontSize": 3,
-    "contenido": []
+    "contenido": [
+      {
+        "tipo": "numeracion",
+        "sangria": false,
+        "continuacion": false,
+        "numeracionItems": [
+          {
+            "texto": "2. Jesús resucitado está siempre presente con sus seguidores. La gran promesa de la resurrección es que Jesús no nos ha dejado solos. Él prometió estar con nosotros todos los días, hasta el fin del mundo (Mt 28:20). Su presencia no es simbólica, es real y espiritual. Podemos experimentar su compañía, su guía y su poder en nuestra vida diaria.",
+            "segmentos": [
+              {
+                "texto": "2. ",
+                "color": "#F5C518"
+              },
+              {
+                "texto": "Jesús resucitado está siempre presente con sus seguidores.",
+                "color": "#F5C518"
+              },
+              {
+                "texto": " La gran promesa de la resurrección es que Jesús no nos ha dejado solos. Él prometió estar con nosotros todos los días, hasta el fin del mundo (Mt 28:20). Su presencia no es simbólica, es real y espiritual. Podemos experimentar su compañía, su guía y su poder en nuestra vida diaria.",
+                "color": "#FFFFFF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "numeracion",
+        "sangria": false,
+        "continuacion": false,
+        "numeracionItems": [
+          {
+            "texto": "3. La gente cambia cuando tiene un encuentro personal con el Jesús resucitado. Los discípulos pasaron de ser un grupo de hombres atemorizados y escondidos, a ser predicadores audaces que transformaron el mundo. El encuentro con el Cristo vivo produce una transformación radical. Cuando una persona se encuentra verdaderamente con Jesús, su vida nunca vuelve a ser la misma.",
+            "segmentos": [
+              {
+                "texto": "3. ",
+                "color": "#F5C518"
+              },
+              {
+                "texto": "La gente cambia cuando tiene un encuentro personal con el Jesús resucitado.",
+                "color": "#F5C518"
+              },
+              {
+                "texto": " Los discípulos pasaron de ser un grupo de hombres atemorizados y escondidos, a ser predicadores audaces que transformaron el mundo. El encuentro con el Cristo vivo produce una transformación radical. Cuando una persona se encuentra verdaderamente con Jesús, su vida nunca vuelve a ser la misma.",
+                "color": "#FFFFFF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "viñetas",
+        "numeracionItems": [
+          {
+            "texto": "► Cleofas y el otro discípulo: Iban camino a Emaús tristes y desilusionados, pero al encontrar a Jesús resucitado, sus corazones ardieron y regresaron corriendo a Jerusalén para compartir la noticia (Lc 24:13-35).",
+            "segmentos": [
+              {
+                "texto": "► ",
+                "color": "#FFFFFF"
+              },
+              {
+                "texto": "Cleofas y el otro discípulo:",
+                "color": "#00B0F0"
+              },
+              {
+                "texto": " Iban camino a Emaús tristes y desilusionados, pero al encontrar a Jesús resucitado, sus corazones ardieron y regresaron corriendo a Jerusalén para compartir la noticia (Lc 24:13-35).",
+                "color": "#FFFFFF"
+              }
+            ]
+          },
+          {
+            "texto": "► María Magdalena y la otra María: Fueron al sepulcro con tristeza, pero fueron las primeras en ver al Señor resucitado y recibieron el privilegio de anunciar la resurrección a los discípulos (Mt 28:1-10).",
+            "segmentos": [
+              {
+                "texto": "► ",
+                "color": "#FFFFFF"
+              },
+              {
+                "texto": "María Magdalena y la otra María:",
+                "color": "#00B0F0"
+              },
+              {
+                "texto": " Fueron al sepulcro con tristeza, pero fueron las primeras en ver al Señor resucitado y recibieron el privilegio de anunciar la resurrección a los discípulos (Mt 28:1-10).",
+                "color": "#FFFFFF"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "87",
     "tipo": "contenido",
     "fontSize": 3,
-    "contenido": []
+    "contenido": [
+      {
+        "tipo": "viñetas",
+        "numeracionItems": [
+          {
+            "texto": "► Saulo de Tarso (Pablo): Iba camino a Damasco para perseguir cristianos, pero un encuentro con Jesús resucitado lo transformó en el más grande misionero de la historia (Hch 9:1-22).",
+            "segmentos": [
+              {
+                "texto": "► ",
+                "color": "#FFFFFF"
+              },
+              {
+                "texto": "Saulo de Tarso (Pablo):",
+                "color": "#00B0F0"
+              },
+              {
+                "texto": " Iba camino a Damasco para perseguir cristianos, pero un encuentro con Jesús resucitado lo transformó en el más grande misionero de la historia (Hch 9:1-22).",
+                "color": "#FFFFFF"
+              }
+            ]
+          },
+          {
+            "texto": "► Un joven que corría desnudo: Aunque su mención es breve, nos recuerda que incluso los momentos más oscuros de la pasión de Cristo estuvieron rodeados de testigos oculares que luego darían testimonio de lo ocurrido (Mr 14:51-52).",
+            "segmentos": [
+              {
+                "texto": "► ",
+                "color": "#FFFFFF"
+              },
+              {
+                "texto": "Un joven que corría desnudo:",
+                "color": "#00B0F0"
+              },
+              {
+                "texto": " Aunque su mención es breve, nos recuerda que incluso los momentos más oscuros de la pasión de Cristo estuvieron rodeados de testigos oculares que luego darían testimonio de lo ocurrido (Mr 14:51-52).",
+                "color": "#FFFFFF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "parrafos",
+        "contenido": [
+          "Hoy la gente necesita tener un encuentro personal con Jesús. No basta con saber de Él, es necesario conocerlo. La resurrección no es solo un hecho histórico que celebramos en Pascua, es una realidad viva que transforma vidas. Jesús sigue resucitando vidas hoy: restaura hogares, sana corazones rotos, da propósito a los perdidos y esperanza a los desesperados. ¿Has tenido un encuentro personal con el Jesús resucitado?"
+        ]
+      },
+      {
+        "tipo": "contexto",
+        "contexto_historico": "CONTEXTO HISTÓRICO",
+        "contexto_historico_descripción": [
+          "Después de su resurrección, Jesús pasó cuarenta días con sus discípulos, enseñándoles acerca del reino de Dios y preparándolos para la misión que les esperaba (Hch 1:3). Durante este tiempo, se apareció a más de quinientas personas en diferentes ocasiones (1 Co 15:6). Fue un período de instrucción intensiva, donde los discípulos fueron transformados de seguidores confundidos a líderes preparados. Al final de estos cuarenta días, Jesús ascendió al cielo, pero antes de irse, dejó a sus discípulos una comisión que cambiaría el mundo: la Gran Comisión."
+        ]
+      }
+    ]
   },
   {
     "id": "88",
     "tipo": "contenido",
     "fontSize": 3,
-    "contenido": []
+    "contenido": [
+      {
+        "tipo": "parrafos",
+        "contenido": [
+          "Cada evangelio registra la Gran Comisión con un énfasis particular. Mateo destaca la autoridad de Cristo y la promesa de su presencia continua. Marcos enfatiza la urgencia de predicar el evangelio a toda criatura, destacando la fe y el bautismo como respuesta al mensaje. Lucas, por su parte, subraya el arrepentimiento y el perdón de pecados como el mensaje central que debe proclamarse a todas las naciones, comenzando desde Jerusalén."
+        ]
+      },
+      {
+        "tipo": "numeracion",
+        "sangria": false,
+        "continuacion": false,
+        "numeracionItems": [
+          {
+            "texto": "1. La Comisión: Id y haced discípulos a todas las naciones (Mt 28:19-20). Jesús no nos llamó solo a hacer convertidos, sino a hacer discípulos. Un discípulo es alguien que aprende de Jesús, sigue sus enseñanzas y vive conforme a su ejemplo. La Gran Comisión no es una sugerencia, es una orden de nuestro Señor. Veamos tres aspectos fundamentales de esta comisión:",
+            "segmentos": [
+              {
+                "texto": "1. ",
+                "color": "#F5C518"
+              },
+              {
+                "texto": "La Comisión: Id y haced discípulos a todas las naciones (Mt 28:19-20).",
+                "color": "#F5C518"
+              },
+              {
+                "texto": " Jesús no nos llamó solo a hacer convertidos, sino a hacer discípulos. Un discípulo es alguien que aprende de Jesús, sigue sus enseñanzas y vive conforme a su ejemplo. La Gran Comisión no es una sugerencia, es una orden de nuestro Señor. Veamos tres aspectos fundamentales de esta comisión:",
+                "color": "#FFFFFF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "viñetas",
+        "numeracionItems": [
+          {
+            "texto": "► Primero, la comisión implica ir. No podemos esperar que el mundo venga a nosotros, debemos salir a encontrarlo. Ir requiere sacrificio, esfuerzo y amor por los perdidos.",
+            "segmentos": [
+              {
+                "texto": "► ",
+                "color": "#FFFFFF"
+              },
+              {
+                "texto": "Primero, la comisión implica ir.",
+                "color": "#00B0F0"
+              },
+              {
+                "texto": " No podemos esperar que el mundo venga a nosotros, debemos salir a encontrarlo. Ir requiere sacrificio, esfuerzo y amor por los perdidos.",
+                "color": "#FFFFFF"
+              }
+            ]
+          },
+          {
+            "texto": "► Segundo, la comisión incluye bautizar. El bautismo es la señal pública de fe y compromiso con Cristo. Es el primer paso de obediencia del nuevo creyente.",
+            "segmentos": [
+              {
+                "texto": "► ",
+                "color": "#FFFFFF"
+              },
+              {
+                "texto": "Segundo, la comisión incluye bautizar.",
+                "color": "#00B0F0"
+              },
+              {
+                "texto": " El bautismo es la señal pública de fe y compromiso con Cristo. Es el primer paso de obediencia del nuevo creyente.",
+                "color": "#FFFFFF"
+              }
+            ]
+          },
+          {
+            "texto": "► Tercero, la comisión consiste en enseñar. No se trata solo de ganar almas, sino de formar discípulos que a su vez formen a otros. Esto incluye:",
+            "segmentos": [
+              {
+                "texto": "► ",
+                "color": "#FFFFFF"
+              },
+              {
+                "texto": "Tercero, la comisión consiste en enseñar.",
+                "color": "#00B0F0"
+              },
+              {
+                "texto": " No se trata solo de ganar almas, sino de formar discípulos que a su vez formen a otros. Esto incluye:",
+                "color": "#FFFFFF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "viñetas",
+        "numeracionItems": [
+          {
+            "texto": "• Enseñarles a obedecer todo lo que Jesús mandó, no solo algunas cosas.",
+            "segmentos": [
+              {
+                "texto": "• ",
+                "color": "#FFFFFF"
+              },
+              {
+                "texto": "Enseñarles a obedecer todo lo que Jesús mandó, no solo algunas cosas.",
+                "color": "#FFFFFF"
+              }
+            ]
+          },
+          {
+            "texto": "• Enseñarles a depender del poder del Espíritu Santo (Hch 1:8).",
+            "segmentos": [
+              {
+                "texto": "• ",
+                "color": "#FFFFFF"
+              },
+              {
+                "texto": "Enseñarles a depender del poder del Espíritu Santo (Hch 1:8).",
+                "color": "#FFFFFF"
+              }
+            ]
+          },
+          {
+            "texto": "• Enseñarles a reproducirse espiritualmente, haciendo otros discípulos (2 Ti 2:2).",
+            "segmentos": [
+              {
+                "texto": "• ",
+                "color": "#FFFFFF"
+              },
+              {
+                "texto": "Enseñarles a reproducirse espiritualmente, haciendo otros discípulos (2 Ti 2:2).",
+                "color": "#FFFFFF"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "89",
+    "tipo": "contenido",
+    "fontSize": 3,
+    "contenido": [
+      {
+        "tipo": "numeracion",
+        "sangria": false,
+        "continuacion": false,
+        "numeracionItems": [
+          {
+            "texto": "2. Las consecuencias de rechazar la Gran Comisión. Cuando la iglesia ignora el mandato de hacer discípulos, las consecuencias son graves. El evangelio se estanca, los creyentes se vuelven estériles y el mundo permanece en oscuridad. La historia de la iglesia muestra que los períodos de mayor crecimiento siempre han estado marcados por un compromiso serio con la Gran Comisión. Por el contrario, cuando la iglesia se enfoca solo en sí misma, pierde su propósito y su poder.",
+            "segmentos": [
+              {
+                "texto": "2. ",
+                "color": "#F5C518"
+              },
+              {
+                "texto": "Las consecuencias de rechazar la Gran Comisión.",
+                "color": "#F5C518"
+              },
+              {
+                "texto": " Cuando la iglesia ignora el mandato de hacer discípulos, las consecuencias son graves. El evangelio se estanca, los creyentes se vuelven estériles y el mundo permanece en oscuridad. La historia de la iglesia muestra que los períodos de mayor crecimiento siempre han estado marcados por un compromiso serio con la Gran Comisión. Por el contrario, cuando la iglesia se enfoca solo en sí misma, pierde su propósito y su poder.",
+                "color": "#FFFFFF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "viñetas",
+        "numeracionItems": [
+          {
+            "texto": "► La iglesia que no cumple la Gran Comisión se vuelve un club social sin impacto eterno.",
+            "segmentos": [
+              {
+                "texto": "► ",
+                "color": "#FFFFFF"
+              },
+              {
+                "texto": "La iglesia que no cumple la Gran Comisión se vuelve un club social sin impacto eterno.",
+                "color": "#00B0F0"
+              }
+            ]
+          },
+          {
+            "texto": "► Los creyentes que ignoran la Gran Comisión viven vidas estériles, enfocadas solo en sus propias necesidades.",
+            "segmentos": [
+              {
+                "texto": "► ",
+                "color": "#FFFFFF"
+              },
+              {
+                "texto": "Los creyentes que ignoran la Gran Comisión viven vidas estériles, enfocadas solo en sus propias necesidades.",
+                "color": "#00B0F0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "numeracion",
+        "sangria": false,
+        "continuacion": false,
+        "numeracionItems": [
+          {
+            "texto": "3. La clave para cumplir la Gran Comisión. La clave no está en nuestros recursos, estrategias o habilidades. La clave está en el poder del Espíritu Santo (Hch 1:8). Jesús les dijo a sus discípulos que esperaran en Jerusalén hasta que recibieran poder del alto. No debían comenzar la misión sin el poder necesario. Hoy necesitamos depender del Espíritu Santo para tener: valentía para hablar, sabiduría para enseñar, amor para amar a los perdidos y perseverancia para no rendirnos.",
+            "segmentos": [
+              {
+                "texto": "3. ",
+                "color": "#F5C518"
+              },
+              {
+                "texto": "La clave para cumplir la Gran Comisión.",
+                "color": "#F5C518"
+              },
+              {
+                "texto": " La clave no está en nuestros recursos, estrategias o habilidades. La clave está en el poder del Espíritu Santo (Hch 1:8). Jesús les dijo a sus discípulos que esperaran en Jerusalén hasta que recibieran poder del alto. No debían comenzar la misión sin el poder necesario. Hoy necesitamos depender del Espíritu Santo para tener: valentía para hablar, sabiduría para enseñar, amor para amar a los perdidos y perseverancia para no rendirnos.",
+                "color": "#FFFFFF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "parrafos",
+        "contenido": [
+          "La resurrección de Jesús y la Gran Comisión son dos caras de la misma moneda. La resurrección nos da el poder para cumplir la comisión, y la comisión nos da el propósito de vivir. Cristo resucitó, Cristo reina, Cristo volverá. Mientras esperamos su regreso, tenemos una misión que cumplir."
+        ]
+      }
+    ]
   }
 ]

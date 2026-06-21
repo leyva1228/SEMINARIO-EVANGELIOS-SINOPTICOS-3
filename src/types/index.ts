@@ -13,7 +13,8 @@ export type TipoContenidoItem =
   | 'imagen'
   | 'alfabetizacion'
   | 'titulo_dorado'
-  | 'encabezado_capitulo';
+  | 'encabezado_capitulo'
+  | 'texto';
 
 export interface FilaTabla {
   tipo_fila: 'tema' | 'unidad';
@@ -56,6 +57,8 @@ export interface ContenidoItem {
   tabla?: TablaData;
   leccion?: LeccionInicioData;
   imagen?: string;
+  texto?: string;
+  textos?: { texto: string }[];
   color?: string;
   sangria?: boolean;
   continuacion?: boolean;

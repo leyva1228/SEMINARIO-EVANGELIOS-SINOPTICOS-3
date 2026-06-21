@@ -92,6 +92,16 @@ function ContenidoBloque({ item, fontSize }: { item: ContenidoItem; fontSize: nu
           ))}
         </div>
       )
+    case 'texto': {
+      const lines = item.textos ? item.textos.map(t => t.texto) : (item.texto ? [item.texto] : [])
+      return (
+        <div className="space-y-[1.2vmin]">
+          {lines.map((line, i) => (
+            <Texto key={i} text={line} fontSize={fontSize} />
+          ))}
+        </div>
+      )
+    }
     case 'enumeracion_por_alfabetizacion': {
       const h3style = { fontSize: `${fontSize}vmin`, color: '#00B0F0' }
       if (item.complemento) {

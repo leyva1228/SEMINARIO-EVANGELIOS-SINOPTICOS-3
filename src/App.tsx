@@ -6,8 +6,8 @@ import type { PaginaData, ContenidoItem } from './types'
 import logoladp from './assets/logoladp.png'
 import { labels } from './utils/labels'
 
-const CORDEBO_IMG = './assets/cordero.png'
-const REBANO_IMG = './assets/rebano_corderos.png'
+const CORDEBO_IMG = '/assets/cordero.png'
+const REBANO_IMG = '/assets/rebano_corderos.png'
 
 function splitContenido(contenido: ContenidoItem[], maxItems: number = 6, forceSplitAfter?: number): ContenidoItem[][] {
   if (contenido.length <= maxItems && forceSplitAfter === undefined) return [contenido]
