@@ -11,6 +11,12 @@ html, body, #root {
   background-color: #071825;
   color: #ffffff;
   font-family: 'Georgia', 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+* {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-weight: bold;
 }
 
 @layer utilities {

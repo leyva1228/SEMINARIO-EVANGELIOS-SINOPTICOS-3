@@ -96,15 +96,15 @@ export function renderNumeracionItem(item: NumeracionItem, fontSize: number, idx
 
 export default function Texto({ text, fontSize, className = '', customColor }: { text?: string; fontSize?: number; className?: string; customColor?: string }) {
   if (!text) return null;
-  const combined = `text-justify ${className}`;
+  const combined = `text-justify font-bold ${className}`;
   if (fontSize !== undefined) {
     const baseStyle = { fontSize: `${fontSize}vmin` };
     const color = customColor || BLANCO;
     if (/^[A-Z]\./.test(text)) {
-      return <p className={`font-bold ${combined}`} style={{ ...baseStyle, color: CELESTE }}>{text}</p>;
+      return <p className={combined} style={{ ...baseStyle, color: CELESTE }}>{text}</p>;
     }
     if (/^\d+\./.test(text)) {
-      return <p className={`font-bold ${combined}`} style={{ ...baseStyle, color: BLANCO }}>{text}</p>;
+      return <p className={combined} style={{ ...baseStyle, color: BLANCO }}>{text}</p>;
     }
     return <p className={combined} style={{ ...baseStyle, color }}>{text}</p>;
   }
@@ -113,9 +113,9 @@ export default function Texto({ text, fontSize, className = '', customColor }: {
 
 export function ViñetaItem({ icon, children, fontSize, iconColor = BLANCO }: { icon: React.ReactNode; children: React.ReactNode; fontSize: number; iconColor?: string }) {
   return (
-    <div className="flex items-start text-justify" style={{ fontSize: `${fontSize}vmin` }}>
+    <div className="flex items-start text-justify font-bold" style={{ fontSize: `${fontSize}vmin` }}>
       <span className="mr-[1.5vmin] font-bold shrink-0" style={{ color: iconColor }}>{icon}</span>
-      <span style={{ color: BLANCO }}>{children}</span>
+      <span className="font-bold" style={{ color: BLANCO }}>{children}</span>
     </div>
   );
 }
