@@ -10,7 +10,7 @@ export const labels = {
   label_tabla_vacia_desc: 'El contenido real de la tabla será proporcionado por el usuario',
   label_bullet: '►',
   label_circle: '○',
-  label_parte_2: 'PARTE 2',
+  label_parte_3: 'PARTE 3',
   label_anterior: 'Anterior',
   label_siguiente: 'Siguiente',
   label_continuacion: '(continuación)',

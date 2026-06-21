@@ -149,7 +149,7 @@ function PaginaPortada({ data }: { data: PaginaData }) {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.6 }}
         >
-          {labels.label_parte_2}
+          {labels.label_parte_3}
         </motion.div>
 
         <motion.div
