@@ -4286,7 +4286,7 @@
       {
         "tipo": "contexto",
         "contexto_historico": "CONTEXTO HISTÓRICO",
-        "contexto_historico_descripcion": [
+        "contexto_historico_descripción": [
           "Getsemani es una palabra hebrea o aramea que significa \"lagar de los olivos\". Era un lugar donde la gente exprimia las uvas para sacarles el aceite Jn 18:1. Prrobablemente se ubicaba al pie del Monte de los Olivos, que queda 2 kilometros al oriente de Jerusalen. Jesus fue a Getsemani para orar la noche del jueves. El sabia que moriria en la cruz al dia siguiente. Getsemani nos pude ensenar cinco maneras para atravesar los momentos mas dificiles de nuestra vida:"
         ]
       },
@@ -4412,7 +4412,7 @@
       {
         "tipo": "contexto",
         "contexto_historico": "CONTEXTO HISTÓRICO",
-        "contexto_historico_descripcion": [
+        "contexto_historico_descripción": [
           "Un gran tema en Mateo es que Jesus vino para cumplir las Escrituras Mt 26:54, 56, 27:9. Los cuatro evangelios nos dan mas detalles sobre los juicios de Jesus que sobre su muerte en la cruz, nos muestran que habia 6 partes en el juicio de Cristo, El Senor soporto tres juicios religiosos y tres juicios legales:"
         ]
       },
@@ -4919,7 +4919,7 @@
       {
         "tipo": "contexto",
         "contexto_historico": "CONTEXTO HISTÓRICO",
-        "contexto_historico_descripcion": []
+        "contexto_historico_descripción": []
       },
       {
         "tipo": "texto",
@@ -5185,7 +5185,7 @@
       {
         "tipo": "contexto",
         "contexto_historico": "CONTEXTO HISTORICO",
-        "contexto_historico_descripcion": []
+        "contexto_historico_descripción": []
       },
       {
         "tipo": "texto",
@@ -5552,7 +5552,7 @@
       {
         "tipo": "contexto",
         "contexto_historico": "CONTEXTO HISTORICO",
-        "contexto_historico_descripcion": [
+        "contexto_historico_descripción": [
           "Estudiaremos las palabras finales de Jesús sobre la tierra. Cada uno de los Evangelios registra que Jesús envió a sus seguidores a proclamar las buenas nuevas. Pero Mateo, Marcos y Lucas enfatizan cada uno una parte diferente en el tema de alcanzar a los perdidos. Juntos nos dan un cuadro completo."
         ]
       }
@@ -5657,7 +5657,8 @@
               }
             ]
           }
-        ]
+        ],
+        "icono": "circulo"
       }
     ]
   },

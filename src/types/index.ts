@@ -65,6 +65,7 @@ export interface ContenidoItem {
   cap_num?: number;
   cap_titulo?: string;
   cap_ref?: string;
+  icono?: string;
 }
 
 export interface LessonHeader {

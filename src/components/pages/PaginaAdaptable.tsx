@@ -56,6 +56,7 @@ function ContenidoBloque({ item, fontSize }: { item: ContenidoItem; fontSize: nu
     }
     case 'viñetas':
       if (item.numeracionItems) {
+        const iconChar = item.icono === 'circulo' ? labels.label_circle : labels.label_bullet
         const items = item.numeracionItems.map((ni) => {
           if (typeof ni !== 'string' && ni.segmentos) {
             const segs = ni.segmentos as SegmentoColor[]
@@ -63,7 +64,7 @@ function ContenidoBloque({ item, fontSize }: { item: ContenidoItem; fontSize: nu
             const isBulletOnly = firstText === '►' || firstText === '•'
             const restSegs = isBulletOnly ? segs.slice(1) : segs
             return {
-              icon: labels.label_bullet,
+              icon: iconChar,
               iconColor: BLANCO,
               content: restSegs.map((seg, si) => (
                 <span key={si} style={{ color: seg.color, marginLeft: si > 0 ? '0.15em' : undefined }}>
@@ -72,9 +73,9 @@ function ContenidoBloque({ item, fontSize }: { item: ContenidoItem; fontSize: nu
               )),
             }
           }
-          return { icon: labels.label_bullet, iconColor: BLANCO, content: typeof ni === 'string' ? ni : ni.texto || '' }
+          return { icon: iconChar, iconColor: BLANCO, content: typeof ni === 'string' ? ni : ni.texto || '' }
         })
-        return <ViñetaList fontSize={fontSize} items={items} />
+        return <ViñetaList fontSize={fontSize} items={items} className={item.icono === 'circulo' ? 'pl-[8vmin]' : ''} />
       }
       return <BulletList items={Array.isArray(item.contenido) ? item.contenido : []} fontSize={fontSize} />
     case 'contexto':
