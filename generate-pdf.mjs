@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
-const PDF_OUTPUT = resolve(__dirname, 'seminario-evangelios-sinopticos.pdf')
+const PDF_OUTPUT = resolve(__dirname, 'SEMINARIO - EVANGELIOS SINÓPTICOS 3 - LADP.pdf')
 const DEV_PORT = 4173
 const VIEWPORT_WIDTH = 1920
 const VIEWPORT_HEIGHT = 1080

@@ -296,7 +296,7 @@ function PaginaAgradecimiento() {
           </a>
 
           <a
-            href="/seminario-evangelios-sinopticos.pdf"
+            href="/SEMINARIO - EVANGELIOS SINÓPTICOS 3 - LADP.pdf"
             download="SEMINARIO - EVANGELIOS SINÓPTICOS 3 - LADP.pdf"
             className="w-full max-w-[50vmin] flex items-center justify-center gap-[1.5vmin] py-[1.5vmin] px-[3vmin] rounded-[1vmin] text-[2.8vmin] font-bold border no-underline"
             style={{ backgroundColor: '#34A85320', borderColor: '#34A853', color: '#34A853' }}
