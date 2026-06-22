@@ -295,16 +295,17 @@ function PaginaAgradecimiento() {
             Correo electrónico
           </a>
 
-          <button
-            disabled
-            className="w-full max-w-[50vmin] flex items-center justify-center gap-[1.5vmin] py-[1.5vmin] px-[3vmin] rounded-[1vmin] text-[2.8vmin] font-bold border cursor-not-allowed opacity-60"
-            style={{ backgroundColor: '#FFFFFF10', borderColor: '#FFFFFF40', color: '#FFFFFF80' }}
+          <a
+            href="/seminario-evangelios-sinopticos.pdf"
+            download="seminario-evangelios-sinopticos.pdf"
+            className="w-full max-w-[50vmin] flex items-center justify-center gap-[1.5vmin] py-[1.5vmin] px-[3vmin] rounded-[1vmin] text-[2.8vmin] font-bold border no-underline"
+            style={{ backgroundColor: '#34A85320', borderColor: '#34A853', color: '#34A853' }}
           >
             <svg viewBox="0 0 24 24" fill="currentColor" className="w-[3.5vmin] h-[3.5vmin]">
               <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
             </svg>
-            Descargar (próximamente)
-          </button>
+            Descargar PDF
+          </a>
         </div>
       </div>
     </div>
