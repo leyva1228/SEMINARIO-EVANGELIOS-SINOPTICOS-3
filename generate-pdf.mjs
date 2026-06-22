@@ -127,6 +127,9 @@ async function main() {
     await page.setViewport({ width: VIEWPORT_WIDTH, height: VIEWPORT_HEIGHT })
   }
 
+  finalPdf.setTitle('SEMINARIO - EVANGELIOS SINÓPTICOS 3 - LADP')
+  finalPdf.setSubject('Seminario Evangelios Sinópticos')
+  finalPdf.setAuthor('LADP - Desiderio Leyva')
   const finalBytes = await finalPdf.save()
   writeFileSync(PDF_OUTPUT, finalBytes)
 
